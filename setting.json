@@ -1,6 +1,6 @@
 {
   // "editor.fontFamily": "Dank Mono",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Monaco,JetBrains Mono",
   // "editor.fontFamily": "Roboto",
   // "editor.fontWeight": "bold",
   "editor.fontLigatures": true,
