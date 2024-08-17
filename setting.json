@@ -7,8 +7,8 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.enabled": false,
-  "editor.fontSize": 18,
-  "editor.lineNumbers": "off",
+  "editor.fontSize": 15,
+  "editor.lineNumbers": "on",
   "explorer.confirmDragAndDrop": false,
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
@@ -21,7 +21,7 @@
   },
   "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.iconTheme": "vscode-icons",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.accessibilitySupport": "off",
   "terminal.integrated.env.windows": {},
@@ -32,7 +32,7 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "window.zoomLevel": 1,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "Monaco,JetBrains Mono",
   // "workbench.activityBar.location": "hidden",
   "vscode_custom_css.imports": [
     "file:///c:/Users/RATH/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
