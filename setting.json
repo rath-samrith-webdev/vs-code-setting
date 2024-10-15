@@ -1,13 +1,18 @@
 {
   // "editor.fontFamily": "Dank Mono",
-  "editor.fontFamily": "Monaco,JetBrains Mono",
+  //   "editor.fontFamily": "Monaco,JetBrains Mono",
   // "editor.fontFamily": "Roboto",
   // "editor.fontWeight": "bold",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "liveSassCompile.settings.generateMap": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.enabled": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 12,
   "editor.lineNumbers": "on",
   "explorer.confirmDragAndDrop": false,
   "editor.wordWrap": "on",
