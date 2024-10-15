@@ -1,13 +1,18 @@
 {
   // "editor.fontFamily": "Dank Mono",
-  "editor.fontFamily": "Monaco,JetBrains Mono",
+  //   "editor.fontFamily": "Monaco,JetBrains Mono",
   // "editor.fontFamily": "Roboto",
   // "editor.fontWeight": "bold",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "liveSassCompile.settings.generateMap": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.enabled": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 12,
   "editor.lineNumbers": "on",
   "explorer.confirmDragAndDrop": false,
   "editor.wordWrap": "on",
@@ -39,5 +44,28 @@
   ],
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  }
+  },
+  
+  //Workbench and code tree setting
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 10,
+  "workbench.colorCustomizations": {
+    "tree.inactiveIndentGuidesStroke": "#ff0000",
+    "tree.indentGuidesStroke": "#ffffff",
+
+    "editorIndentGuide.activeBackground1": "#ffc400",
+    "editorIndentGuide.activeBackground2": "#ff0000",
+    "editorIndentGuide.activeBackground3": "#a51283",
+    "editorIndentGuide.activeBackground4": "#ff8c00",
+    "editorIndentGuide.activeBackground5": "#ffc400",
+    "editorIndentGuide.activeBackground6": "#ffc400",
+
+    // non-active indent guide colors
+    "editorIndentGuide.background1": "#0066ff",
+    "editorIndentGuide.background2": "#00e5ff",
+    "editorIndentGuide.background3": "#00e5ff",
+    "editorIndentGuide.background4": "#00e5ff",
+    "editorIndentGuide.background5": "#00e5ff",
+    "editorIndentGuide.background6": "#00e5ff"
+  },
 }
